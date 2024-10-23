@@ -1,4 +1,4 @@
-ROM archlinux:latest
+FROM archlinux:latest
 
 RUN pacman -Syu --noconfirm \
     && pacman -S --noconfirm jre-openjdk git vim
